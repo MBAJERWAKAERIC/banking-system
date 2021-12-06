@@ -17,7 +17,7 @@ int main()
     while("pin != enteredPin"){
         printf("\n Please enter your pin : ");
         scanf("%d" ,&enteredPin);
-        if(enteredPin != pin){
+        if(enteredPin != pin){z
             Beep(610,500);
             printf("invalid pin!!!");
 
